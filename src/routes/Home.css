@@ -1,0 +1,24 @@
+.outer-main{
+    position: absolute;
+    left: 0;
+
+}
+
+.navbar{
+    position: fixed;
+    left: 0;
+    width: 30vw;
+    height: 100vh;
+    
+}
+
+.content {
+    background-color: rgba(240,235,239,255);
+    position: relative;
+    left: 30vw;
+    width: 70vw;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
