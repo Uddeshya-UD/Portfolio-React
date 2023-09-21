@@ -9,10 +9,10 @@ const NavBar = () => {
            <h1>Uddeshya verma</h1>
            <p>Systems Engineer<span> IN TCS</span></p>
           <ul className="sidebar-ul">
-            <li><a href="">Home</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">Contacts</a></li>
+            <li><a href="/#">Home</a></li>
+            <li><a href="/#">Projects</a></li>
+            <li><a href="/#">Skills</a></li>
+            <li><a href="/#">Contacts</a></li>
           </ul>
                
           <ul>
