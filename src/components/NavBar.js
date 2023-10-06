@@ -1,6 +1,8 @@
 import React from "react";
 import "../css/NavBar.css";
 import Mypic from "../assets/mypic.jpg"
+import MyResume from "../assets/UddeshyaVerma_Resume.pdf"
+
 const NavBar = () => {
   return (
   <>
@@ -8,6 +10,7 @@ const NavBar = () => {
           <img id="my-pic" src={Mypic} alt=""/>
            <h1>Uddeshya verma</h1>
            <p>Systems Engineer<span> IN TCS</span></p>
+           <a className="resume" href={MyResume} download>DOWNLOAD CV</a>
           <ul className="sidebar-ul">
             <li><a href="/#">Home</a></li>
             <li><a href="/#">Projects</a></li>
