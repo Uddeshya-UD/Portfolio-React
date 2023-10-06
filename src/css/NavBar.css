@@ -102,13 +102,12 @@ a {
 }
 
 a:hover, a:focus{
-  color: #2c98f0;
+  color: rgb(57, 161, 225);
   font-weight: 700;
   text-decoration: none;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.5s;
-  text-decoration: underline;
 }
 
 a:active, a:hover {
