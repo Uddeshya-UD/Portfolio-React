@@ -19,9 +19,9 @@ const NavBar = () => {
           </ul>
                
           <ul>
-            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100011671078350">Fb</a></li>
-            <li><a target="_blank" href="https://www.instagram.com/uddeshya.music/">instagram</a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/uddeshya-verma-185a49200/">linkedin</a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100011671078350">Fb</a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/uddeshya.music/">instagram</a></li>
+            <li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/uddeshya-verma-185a49200/">linkedin</a></li>
           </ul>
 
           <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
