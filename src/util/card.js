@@ -24,7 +24,7 @@ const Card = ({ cardId , heading , short , full }) => {
         <p className="short-description">{short}</p>
         <p className="full-description">{full}</p>
 
-        <button className="know-more-btn" onClick={toggleDescription}>Toggle Description</button>
+        <button className="know-more-btn" onClick={toggleDescription}>More Details</button>
       </div>
     </div>
   );
