@@ -1,12 +1,7 @@
 import React from "react";
 import "../css/Skills.css";
 import "../css/Projects.css";
-import { BiLogoJava , BiLogoGoLang , BiLogoJavascript , BiLogoKubernetes,BiLogoNodejs , BiLogoAws  } from "react-icons/bi";
-import { AiFillGithub } from "react-icons/ai";
-import { IoLogoPython } from "react-icons/io";
-import { DiRedis } from "react-icons/di"
-import { SiSpringboot } from "react-icons/si"
-import { GrReactjs } from "react-icons/gr"
+
 import Card from "../util/card"
 const Projects = () => {
   return (
