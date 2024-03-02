@@ -15,21 +15,21 @@ const Projects = () => {
       <div class="card-content">
         <h3>Portfolio Website</h3>
         <p>Portfolio website created using HTML, CSS, MaterializeCSS.</p>
-        <a target="_blank" href="https://uddeshya-ud.github.io/">Access</a>
+        <a target="_blank" rel="noreferrer" href="https://uddeshya-ud.github.io/">Access</a>
       </div>
     </div>
     <div class="card">
       <div class="card-content">
         <h3>Gym Website</h3>
         <p>Gym website created using ReactJs, Javascript, HTML, CSS.</p>
-        <a target="_blank" href="https://uddeshya-gym.netlify.app/">Access</a>
+        <a target="_blank" rel="noreferrer" href="https://uddeshya-gym.netlify.app/">Access</a>
       </div>
     </div>
     <div class="card">
       <div class="card-content">
         <h3>Game Website</h3>
         <p>Game website created using HTML, CSS, MaterializeCSS.</p>
-        <a target="_blank" href="https://uddeshya-ud.github.io/Game/">Access</a>
+        <a target="_blank" rel="noreferrer" href="https://uddeshya-ud.github.io/Game/">Access</a>
       </div>
     </div>
     </div>
