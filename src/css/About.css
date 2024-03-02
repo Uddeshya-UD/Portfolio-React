@@ -14,9 +14,9 @@
     padding-top: 80px;
     font-family: "Quicksand", Arial, sans-serif;
     text-align: left;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-left: 40px;
-    margin-bottom: 15px;
+
     display: block;
     font-size: 10px;
     text-transform: uppercase;
@@ -36,6 +36,8 @@
     position: relative;
     text-align: left;
     margin-left: 40px;
+    margin-bottom: 70px;
+    margin-top: 30px;
 }
 
 .about-content{

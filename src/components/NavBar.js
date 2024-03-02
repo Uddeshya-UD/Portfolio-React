@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="sidebar">
           <img id="my-pic" src={Mypic} alt=""/>
            <h1>Uddeshya verma</h1>
-           <p>Systems Engineer<span> IN TCS</span></p>
+           <p>Software Engineer<span> IN TCS</span></p>
            <a className="resume" href={MyResume} download>DOWNLOAD CV</a>
           <ul className="sidebar-ul">
             <li><Link to="section1" smooth={true} duration={500}>About</Link></li>
