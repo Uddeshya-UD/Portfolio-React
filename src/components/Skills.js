@@ -8,6 +8,7 @@ import { SiSpringboot } from "react-icons/si"
 import { GrReactjs } from "react-icons/gr"
 const Skills = () => {
   return (
+    
     <div className="skills-container">
       <div className="skills-heading">
         <h4 className="heading-one">MY SPECIALTY</h4>

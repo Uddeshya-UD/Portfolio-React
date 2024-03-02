@@ -2,7 +2,7 @@ import React from "react";
 import "../css/NavBar.css";
 import Mypic from "../assets/mypic.jpg"
 import MyResume from "../assets/UddeshyaVerma_Resume.pdf"
-
+import { Link } from 'react-scroll';
 const NavBar = () => {
   return (
   <>
@@ -12,10 +12,10 @@ const NavBar = () => {
            <p>Systems Engineer<span> IN TCS</span></p>
            <a className="resume" href={MyResume} download>DOWNLOAD CV</a>
           <ul className="sidebar-ul">
-            <li><a href="/#">Home</a></li>
-            <li><a href="/#">Projects</a></li>
-            <li><a href="/#">Skills</a></li>
-            <li><a href="/#">Contacts</a></li>
+            <li><Link to="section1" smooth={true} duration={500}>About</Link></li>
+            <li><Link to="section2" smooth={true} duration={500}>Skills</Link></li>
+            <li><Link to="section3" smooth={true} duration={500}>Projects</Link></li>
+
           </ul>
                
           <ul>
