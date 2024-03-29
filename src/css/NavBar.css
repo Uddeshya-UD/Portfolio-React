@@ -63,11 +63,12 @@
 
 .sidebar p{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 13px;
+  font-size: 17px;
   color: #2c98f0;
   font-weight: 300;
   font-style: oblique;
-  padding-bottom: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 span{

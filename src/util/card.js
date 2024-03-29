@@ -3,7 +3,7 @@
 import React from 'react';
 
 
-const Card = ({ cardId , heading , short , full }) => {
+const Card = ({ cardId , heading , short , fullHeading , full }) => {
   const toggleDescription = () => {
     var fullDescription = document.querySelector(`#${cardId} .full-description`);
     var knowMoreBtn = document.querySelector(`#${cardId} .know-more-btn`);
@@ -19,15 +19,23 @@ const Card = ({ cardId , heading , short , full }) => {
 
   return (
     <div className="card" id={cardId}>
-      <div className="card-content">
-        <h3>{heading}</h3>
-        <p className="short-description">{short}</p>
-        <p className="full-description">{full}</p>
-
-        <button className="know-more-btn" onClick={toggleDescription}>More Details</button>
+    <div className="card-content">
+      <h3>{heading}</h3>
+      <p className="short-description">{short}</p>
+      <div className="full-description" style={{ display: 'none' }}>
+      <p className="full-heading">{fullHeading}</p>
+        <ul>
+          {full.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
       </div>
+      <button className="know-more-btn" onClick={toggleDescription}>
+        More Details
+      </button>
     </div>
-  );
+  </div>
+);
 };
 
 export default Card;
