@@ -11,7 +11,7 @@ const About = () => {
       <div className='about-content'>
         <p className='paragraph'>
         <strong>Hi I'm Uddeshya verma </strong>
-         , a software developer with a passion for coding and problem-solving. With over 3 years of experience, I have expertise in Java, Python, Golang, Javascript, SpringBoot, ReactJS and SQL. I'm also skilled in AWS, Kubernetes, Docker, Testing, and Documentation.
+         , a software developer with a passion for coding and problem-solving. With over 4+ years of experience, I have expertise in Java, Python, Golang, Javascript, SpringBoot, ReactJS and SQL. I'm also skilled in AWS, Kubernetes, Docker, Testing, and Documentation.
 
 I am a B Tech Graduate in Computer Science, where I gained a solid foundation in programming. I love creating unique and visually appealing websites, and you can check out my projects on my personal page.
 
